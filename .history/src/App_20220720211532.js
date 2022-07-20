@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Index from "../src/component/Index"
-import '../src/App.css'
+import '../src/css/fle'
 
 const  App = () => {
   
