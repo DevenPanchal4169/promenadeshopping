@@ -173,7 +173,7 @@ const Layout = (props) => {
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td><Link className="nav" target="_self" to="/coupons">COUPONS</Link></td>
+                                                                    <td><Link className="nav" target="_self" href="coupons">COUPONS</Link></td>
                                                                 </tr>
                                                                 <tr style={{ display: 'none' }}>
                                                                     <td><a className="nav" target="_self" href="http://promenadeshopping.com/users/visitng">VISITING US</a></td>

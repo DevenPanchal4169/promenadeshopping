@@ -173,7 +173,7 @@ const Layout = (props) => {
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td><Link className="nav" target="_self" to="/coupons">COUPONS</Link></td>
+                                                                    <td><a className="nav" target="_self" href="http://promenadeshopping.com/users/coupons">COUPONS</a></td>
                                                                 </tr>
                                                                 <tr style={{ display: 'none' }}>
                                                                     <td><a className="nav" target="_self" href="http://promenadeshopping.com/users/visitng">VISITING US</a></td>
@@ -183,7 +183,7 @@ const Layout = (props) => {
                                                                 </tr>
                                                                 <tr>
                                                                     <td>
-                                                                        <Link className="nav" data-flexmenu="flexmenu3________" data-offsets="170,-20" target="_self" to="/contact">CONTACT US</Link>
+                                                                        <Link className="nav" data-flexmenu="flexmenu3________" data-offsets="170,-20" target="_self" to="http://promenadeshopping.com/users/contact">CONTACT US</Link>
                                                                         <ul id="flexmenu3" className="flexdropdownmenu">
                                                                             <li><a href="http://promenadeshopping.com/users/contact_address">Leasing Info</a></li>
                                                                             <li><a href="http://promenadeshopping.com/users/contact_lisning_info">Property Management</a></li>
