@@ -1,7 +1,7 @@
 import React from 'react';
-import headerImage from '../../src/images/piece-001.jpg'
-import leftImage from '../../src/images/piece-002.jpg'
-import footerImage from '../../src/images/piece-010.jpg'
+import headerImage from  '../../src/images/piece-001.jpg'
+import leftImage from  '../../src/images/piece-002.jpg'
+import footerImage from  '../../src/images/piece-010.jpg'
 
 const Index = () => {
     return (
@@ -37,7 +37,8 @@ const Index = () => {
                                                 <td background={leftImage} align="left" valign="top">
                                                     <div align="center">
                                                         <table border={0} width="70%" cellSpacing={0} cellPadding={5}>
-                                                            <tbody>
+                                                            <tbody><tr>
+                                                            </tr>
                                                                 <tr>
                                                                     <td><a className="nav" target="_self" href="index.html">HOME</a></td>
                                                                 </tr>

@@ -1,7 +1,6 @@
 import React from 'react';
-import headerImage from '../../src/images/piece-001.jpg'
-import leftImage from '../../src/images/piece-002.jpg'
-import footerImage from '../../src/images/piece-010.jpg'
+import headerImage from  '../../src/images/piece-001.jpg'
+import headerImage from  '../../src/images/piece-001.jpg'
 
 const Index = () => {
     return (
@@ -34,10 +33,13 @@ const Index = () => {
                                     <td align="left" valign="top" width={205} bgcolor="#453263" style={{ background: 'url("images/piece-003.jpg") no-repeat scroll left bottom #453263' }}>
                                         <table border={0} width={205} cellSpacing={0} cellPadding={0} height={375}>
                                             <tbody><tr>
-                                                <td background={leftImage} align="left" valign="top">
+                                                <td background="images/piece-002.jpg" align="left" valign="top">
                                                     <div align="center">
                                                         <table border={0} width="70%" cellSpacing={0} cellPadding={5}>
-                                                            <tbody>
+                                                            <tbody><tr>
+                                                                <td>
+                                                                    <img border={0} src="images/expander-001.gif" width={55} height={79} /></td>
+                                                            </tr>
                                                                 <tr>
                                                                     <td><a className="nav" target="_self" href="index.html">HOME</a></td>
                                                                 </tr>
@@ -618,7 +620,7 @@ const Index = () => {
                             <table border={0} width="100%" cellSpacing={0} cellPadding={0}>
                                 <tbody><tr>
                                     <td>
-                                        <img border={0} src={footerImage} width={1146} height={25} /></td>
+                                        <img border={0} src="http://promenadeshopping.com/images/piece-010.jpg" width={1146} height={25} /></td>
                                 </tr>
                                 </tbody></table>
                         </td>
