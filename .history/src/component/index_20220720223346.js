@@ -7,7 +7,7 @@ import gif from '../../src/images/expander-001.gif'
 const Index = () => {
     return (
         <div style={{ padding: '5px 13px' }}>
-            <table border={0} width="100%" cellSpacing={0} cellPadding={0} bgcolor="#FFFFFF">
+                <table border={0} width="100%" cellSpacing={0} cellPadding={0} bgcolor="#FFFFFF">
                 <tbody><tr>
                     <td align="left" valign="top" width={430}>
                         <div align="center">

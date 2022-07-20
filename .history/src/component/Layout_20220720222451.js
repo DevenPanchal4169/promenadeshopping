@@ -1,0 +1,388 @@
+import headerImage from '../../src/images/piece-001.jpg'
+import leftImage from '../../src/images/piece-002.jpg'
+import footerImage from '../../src/images/piece-010.jpg'
+import React from 'react'
+
+const Layout = () => {
+  return (
+    <div>
+      <div align="center">
+        <table border={0} width={1150} cellSpacing={0} cellPadding={0}>
+          <tbody><tr>
+            <td style={{ border: '2px solid #453263' }} align="left" valign="top">
+              <table border={0} width="100%" cellSpacing={0} cellPadding={0}>
+                <tbody><tr>
+                  <td>
+                    <map name="FPMap1">
+                      <area target="_self" href="users/facebook.html" shape="rect" coords="1086, 5, 1106, 26" />
+                      <area target="_self" href="users/twitter.html" shape="rect" coords="1115, 5, 1134, 26" />
+                    </map>
+                    <img border={0} src={headerImage} width={1146} height={29} useMap="#FPMap1" /></td>
+                </tr>
+                </tbody></table>
+              {/*<table border="0" width="100%" cellspacing="0" cellpadding="0" style="display:none;">
+  <tr>
+      <td style="border-right: 1px solid #FFFFFF"><div id="fadeshow1"></div></td>
+      <td style="border-right: 1px solid #FFFFFF"><div id="fadeshow2"></div></td>
+      <td style="border-right: 1px solid #FFFFFF"><div id="fadeshow3"></div></td>
+      <td style="border-right: 1px solid #FFFFFF"><div id="fadeshow4"></div></td>
+      <td><div id="fadeshow5"></div></td>
+  </tr>
+</table>*/}
+              <table border={0} width="100%" cellSpacing={0} cellPadding={0} bgcolor="#FFFFFF">
+                <tbody><tr>
+                  <td align="left" valign="top" width={205} bgcolor="#453263" style={{ background: 'url("images/piece-003.jpg") no-repeat scroll left bottom #453263' }}>
+                    <table border={0} width={205} cellSpacing={0} cellPadding={0} height={375}>
+                      <tbody><tr>
+                        <td background={leftImage} align="left" valign="top">
+                          <div align="center">
+                            <table border={0} width="70%" cellSpacing={0} cellPadding={5}>
+                              <tbody>
+                                <tr>
+                                  <td><a className="nav" target="_self" href="index.html">HOME</a></td>
+                                </tr>
+                                <tr>
+                                  <td><a className="nav" target="_self" href="users/aboutus.html">ABOUT</a></td>
+                                </tr>
+                                <tr style={{ display: 'none' }}>
+                                  <td><a className="nav" target="_self" href="users/event.html">EVENTS</a></td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <a data-flexmenu="flexmenu2" data-offsets="170,-20" className="nav" target="_self" href="users/storedirectory.html">DIRECTORY</a>
+                                    <ul id="flexmenu2" className="flexdropdownmenu">
+                                      <li><a href="users/shop_by_store.html">Shop By Store</a>
+                                        <ul>
+                                          <li><a href="users/store_site/207.html">Bank of America ATM</a>
+                                          </li>
+                                          <li><a href="users/store_site/214.html">Barber Shop</a>
+                                          </li>
+                                          <li><a href="users/store_site/181.html">Bel Air Supermarket</a>
+                                          </li>
+                                          <li><a href="users/store_site/182.html">Brite Cleaners</a>
+                                          </li>
+                                          <li><a href="users/store_site/208.html">California Sun</a>
+                                          </li>
+                                          <li><a href="users/store_site/185.html">CVS Pharmacy</a>
+                                          </li>
+                                          <li><a href="users/store_site/183.html">Dr. Arthur Burbridge, DDS</a>
+                                          </li>
+                                          <li><a href="users/store_site/187.html">Eyelusions Optometry</a>
+                                          </li>
+                                          <li><a href="users/store_site/176.html">Golden 1 Credit Union</a>
+                                          </li>
+                                          <li><a href="users/store_site/190.html">Goodwill Xpress</a>
+                                          </li>
+                                          <li><a href="users/store_site/191.html">H&amp;R Block</a>
+                                          </li>
+                                          <li><a href="users/store_site/192.html">Hollywood Nails</a>
+                                          </li>
+                                          <li><a href="http://promenadeshopping.com/users/store_site/189">Ocean Sushi</a>
+                                          </li>
+                                          <li><a href="http://promenadeshopping.com/users/store_site/194">Papa Murphys</a>
+                                          </li>
+                                          <li><a href="http://promenadeshopping.com/users/store_site/195">Regent Chinese</a>
+                                          </li>
+                                          <li><a href="http://promenadeshopping.com/users/store_site/213">Sai Varee Thai Restaurant</a>
+                                          </li>
+                                          <li><a href="http://promenadeshopping.com/users/store_site/197">Select Wine &amp; Spirits</a>
+                                          </li>
+                                          <li><a href="http://promenadeshopping.com/users/store_site/199">Tobacco City</a>
+                                          </li>
+                                        </ul>
+                                      </li>
+                                      <li><a href="http://promenadeshopping.com/users/shop_by_department">Shop by Department</a>
+                                        <ul>
+                                          <li><a href="http://promenadeshopping.com/users/shopdeparment/41">Apparel &amp; Home Goods</a>
+                                            <ul>													<li>
+                                              <a href="http://promenadeshopping.com/users/store_site/182">Brite Cleaners</a></li>
+                                            </ul>
+                                          </li>
+                                          <li><a href="http://promenadeshopping.com/users/shopdeparment/42">Books, Cards, Gifts</a>
+                                            <ul>													<li>
+                                              <a href="http://promenadeshopping.com/users/store_site/181">Bel Air Supermarket</a></li>
+                                              <li>
+                                                <a href="http://promenadeshopping.com/users/store_site/185">CVS Pharmacy</a></li>
+                                            </ul>
+                                          </li>
+                                          <li><a href="http://promenadeshopping.com/users/shopdeparment/73">Doctors</a>
+                                            <ul>													<li>
+                                              <a href="http://promenadeshopping.com/users/store_site/183">Dr. Arthur Burbridge, DDS</a></li>
+                                              <li>
+                                                <a href="http://promenadeshopping.com/users/store_site/187">Eyelusions Optometry</a></li>
+                                            </ul>
+                                          </li>
+                                          <li><a href="http://promenadeshopping.com/users/shopdeparment/45">Financial</a>
+                                            <ul>													<li>
+                                              <a href="http://promenadeshopping.com/users/store_site/207">Bank of America ATM</a></li>
+                                              <li>
+                                                <a href="http://promenadeshopping.com/users/store_site/176">Golden 1 Credit Union</a></li>
+                                              <li>
+                                                <a href="http://promenadeshopping.com/users/store_site/191">H&amp;R Block</a></li>
+                                            </ul>
+                                          </li>
+                                          <li><a href="http://promenadeshopping.com/users/shopdeparment/47">Fitness, Beauty, Spa</a>
+                                            <ul>													<li>
+                                              <a href="http://promenadeshopping.com/users/store_site/214">Barber Shop</a></li>
+                                              <li>
+                                                <a href="http://promenadeshopping.com/users/store_site/208">California Sun</a></li>
+                                              <li>
+                                                <a href="http://promenadeshopping.com/users/store_site/192">Hollywood Nails</a></li>
+                                            </ul>
+                                          </li>
+                                          <li><a href="http://promenadeshopping.com/users/shopdeparment/72">Grocery &amp; Drug</a>
+                                            <ul>													<li>
+                                              <a href="http://promenadeshopping.com/users/store_site/181">Bel Air Supermarket</a></li>
+                                              <li>
+                                                <a href="http://promenadeshopping.com/users/store_site/185">CVS Pharmacy</a></li>
+                                            </ul>
+                                          </li>
+                                          <li><a href="http://promenadeshopping.com/users/shopdeparment/46">Restaurants / Delis</a>
+                                            <ul>													<li>
+                                              <a href="http://promenadeshopping.com/users/store_site/181">Bel Air Supermarket</a></li>
+                                              <li>
+                                                <a href="http://promenadeshopping.com/users/store_site/189">Ocean Sushi</a></li>
+                                              <li>
+                                                <a href="http://promenadeshopping.com/users/store_site/194">Papa Murphys</a></li>
+                                              <li>
+                                                <a href="http://promenadeshopping.com/users/store_site/195">Regent Chinese</a></li>
+                                              <li>
+                                                <a href="http://promenadeshopping.com/users/store_site/213">Sai Varee Thai Restaurant</a></li>
+                                            </ul>
+                                          </li>
+                                          <li><a href="http://promenadeshopping.com/users/shopdeparment/71">Specialty Shops</a>
+                                            <ul>													<li>
+                                              <a href="http://promenadeshopping.com/users/store_site/182">Brite Cleaners</a></li>
+                                              <li>
+                                                <a href="http://promenadeshopping.com/users/store_site/190">Goodwill Xpress</a></li>
+                                              <li>
+                                                <a href="http://promenadeshopping.com/users/store_site/197">Select Wine &amp; Spirits</a></li>
+                                              <li>
+                                                <a href="http://promenadeshopping.com/users/store_site/199">Tobacco City</a></li>
+                                            </ul>
+                                          </li>
+                                        </ul>
+                                      </li>
+                                      <li><a href="http://promenadeshopping.com/users/directorymap">Directory Map</a></li>
+                                    </ul>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><a className="nav" target="_self" href="http://promenadeshopping.com/users/coupons">COUPONS</a></td>
+                                </tr>
+                                <tr style={{ display: 'none' }}>
+                                  <td><a className="nav" target="_self" href="http://promenadeshopping.com/users/visitng">VISITING US</a></td>
+                                </tr>
+                                <tr style={{ display: 'none' }}>
+                                  <td><a className="nav" target="_self" href="http://promenadeshopping.com/users/community">COMMUNITY</a></td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <a className="nav" data-flexmenu="flexmenu3________" data-offsets="170,-20" target="_self" href="http://promenadeshopping.com/users/contact">CONTACT US</a>
+                                    <ul id="flexmenu3" className="flexdropdownmenu">
+                                      <li><a href="http://promenadeshopping.com/users/contact_address">Leasing Info</a></li>
+                                      <li><a href="http://promenadeshopping.com/users/contact_lisning_info">Property Management</a></li>
+                                    </ul>
+                                  </td>
+                                </tr>
+                              </tbody></table>
+                          </div></td>
+                      </tr>
+                      </tbody></table>
+                    <div style={{ height: '210px' }} />
+                    {/*<table border="0" width="100%" cellspacing="0" cellpadding="0">
+              <tr>
+                  <td>
+                  <img border="0" src="/images/piece-003.jpg" width="205" height="210"></td>
+              </tr>
+          </table>*/}
+                  </td>
+                  <td align="left" valign="top">
+                    <table border={0} width="100%" cellSpacing={0} cellPadding={0} background="http://promenadeshopping.com/images/piece-005.jpg">
+                      <tbody><tr>
+                        <td width={485}>
+                          <a target="_self" href="http://promenadeshopping.com/users/index">
+                            <img border={0} src="http://promenadeshopping.com/images/piece-004.jpg" width={480} height={125} /></a></td>
+                        <td>
+                          <form action="http://promenadeshopping.com/users/search" method="post">
+                            <input style={{ borderWidth: '1px medium 1px 1px', borderStyle: 'solid none solid solid', borderColor: 'rgb(204, 204, 204) -moz-use-text-color rgb(204, 204, 204) rgb(204, 204, 204)', MozBorderTopColors: 'none', MozBorderRightColors: 'none', MozBorderBottomColors: 'none', MozBorderLeftColors: 'none', borderImage: 'none', padding: '3px', margin: '0px', position: 'relative', top: '-8px', left: '0px', width: '215px' }} type="text" name="data[User][search]" className="search_input" /><input type="image" className="btn_search" src="http://promenadeshopping.com/images/piece-006.jpg" />
+                          </form>
+                        </td>
+                      </tr>
+                      </tbody></table><br />
+                    <div style={{ padding: '5px 13px' }}>
+                      <table border={0} width="100%" cellSpacing={0} cellPadding={0} bgcolor="#FFFFFF">
+                        <tbody><tr>
+                          <td align="left" valign="top" width={430}>
+                            <div align="center">
+                              <table border={0} width="80%" cellSpacing={0} cellPadding={25}>
+                                <tbody><tr>
+                                  <td style={{ border: '1px solid #C0C0C0' }}>
+                                    <p>Welcome to Promenade Shopping Center! We are proud to be a one-stop shopping destination in the “Pocket” area of Sacramento.</p>					</td>
+                                </tr>
+                                </tbody></table>
+                            </div>
+                            <hr color="#FFFFFF" />
+                            <div align="center">
+                              <table border={0} width="80%" cellSpacing={0} cellPadding={0}>
+                                <tbody><tr>
+                                  <td style={{ border: '1px solid #C0C0C0' }} bgcolor="#D2DDEC">
+                                    <img border={0} src="http://promenadeshopping.com/images/piece-009.jpg" width={342} height={30} /><div align="center">
+                                      <table border={0} width="80%" cellSpacing={0} cellPadding={0}>
+                                        <tbody><tr>
+                                          <td>
+                                            <p>Welcome to our website!&nbsp; Please browse around to learn more about our stores.</p>								</td>
+                                        </tr>
+                                        </tbody></table>
+                                    </div>
+                                  </td>
+                                </tr>
+                                </tbody></table>
+                            </div>
+                            <p>&nbsp;</p></td>
+                          <td align="left" valign="top">
+                            {/*<img border="0" src="images/piece-007.jpg" width="477" height="358">*/}
+                            <div id="fadeshow1" />
+                            <p align="center">
+                              <a target="_self" href="http://promenadeshopping.com/users/storedirectory">
+                                <img border={0} src="http://promenadeshopping.com/images/piece-008.jpg" width={145} height={26} /></a>
+                            </p>
+                          </td>
+                        </tr>
+                        </tbody></table>
+                      <table border={0} width="100%" cellSpacing={0} cellPadding={0} style={{ marginLeft: '45px' }}>
+                        <tbody><tr>
+                          <td align="left" valign="top">&nbsp;<table border={0} width="100%" cellSpacing={0} cellPadding={0}>
+                            <tbody><tr>
+                              <td align="left" valign="top" width={384}>
+                                <table border={0} width="85%" cellSpacing={0} cellPadding={0}>
+                                  <tbody><tr>
+                                    <td className="sdssd">
+                                      <style dangerouslySetInnerHTML={{ __html: "\n\t\t\t\t\t\t\t.sdssd p{\n\t\t\t\t\t\t\t\tmargin-top:0;\n\t\t\t\t\t\t\t\tpadding-top:0;\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t" }} />
+                                      <font face="Arial" style={{ fontSize: '16pt' }} color="#0578B7">
+                                        <p><strong><span style={{ color: '#453263', fontFamily: 'Arial' }}><span>Promenade Shopping Center is located west off of Interstate 5 in the well known "pocket" area of Sacramento.</span><br /></span></strong></p>
+                                        <p><span style={{ fontFamily: 'Arial' }}>You can take either Pocket Road exit going west to Windbridge Drive or Florin Road west exit with a left onto Greenhaven Drive and a right onto Windbridge Drive.</span></p>
+                                        <p><span style={{ fontFamily: 'Arial' }}>The center is conveniently located at the corner of Windbridge Drive and Rush River Drive.</span></p>
+                                        <p><span style={{ fontFamily: 'Arial' }}>7485 Rush River Drive<br />Sacramento, CA 95831<br /></span></p>
+                                      </font></td>
+                                  </tr>
+                                  </tbody></table>
+                              </td>
+                              <td align="left" valign="top">
+                                <iframe width={477} height={350} frameBorder={0} scrolling="no" marginHeight={0} marginWidth={0} src="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Promenade+Shopping+Center,+Sacramento,+CA&aq=0&oq=Promenade+Shopping+Center+&sll=37.269174,-119.306607&sspn=11.00945,23.269043&ie=UTF8&hq=Promenade+Shopping+Center,&hnear=Sacramento,+California&ll=38.485958,-121.534502&spn=0.210351,0.088225&t=m&output=embed" /><br /><small><a href="https://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=Promenade+Shopping+Center,+Sacramento,+CA&aq=0&oq=Promenade+Shopping+Center+&sll=37.269174,-119.306607&sspn=11.00945,23.269043&ie=UTF8&hq=Promenade+Shopping+Center,&hnear=Sacramento,+California&ll=38.485958,-121.534502&spn=0.210351,0.088225&t=m" style={{ color: '#0000FF', textAlign: 'left' }}>View Larger Map</a></small>
+                              </td>
+                            </tr>
+                            </tbody></table>
+                            <p>&nbsp;</p></td>
+                        </tr>
+                        </tbody></table>
+                      {/*
+<div align="center">
+<table border="0" width="1080" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"><img border="0" src="images/piece-009.jpg" width="62" height="316"></td>
+
+<td><div class="slider-wrapper theme-default"><div id="slider" class="nivoSlider">
+          <a target="_self" href="akhil"><img src="/admin/upload_images/" alt="" width="100%" height="316" /></a>
+         
+</div></div></td>
+<td valign="top">
+<img border="0" src="images/piece-010.jpg" width="59" height="316"></td>
+</tr>
+</table>
+</div>
+<div align="center">
+<table border="0" width="1080" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+<tr>
+<td valign="top">
+<img border="0" src="images/piece-011.jpg" width="56" height="400"></td>
+<td valign="top">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><img border="0" src="images/piece-012.jpg" width="667" height="70"></td>
+</tr>
+<tr>
+<td style="padding-left:20px; padding-right:25px;"> <span style="text-align:justify;">
+<p>Welcome to Promenade Shopping Center! We are proud to be a one-stop shopping destination in the &ldquo;Pocket&rdquo; area of Sacramento.</p>             </span></td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+</td>
+<td valign="top">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+      <td>
+      <img border="0" src="images/piece-013.jpg" width="309" height="70">
+     
+      </td>
+  </tr>
+  <tr>
+      <td background="images/piece-015.jpg">
+      <div align="center">
+          <table border="0" width="80%" cellspacing="0" cellpadding="0">
+              <tr>
+                  <td><br>
+              <p>
+                  <font face="Arial" color="#3D5043" style="font-size: 14pt"><p>Welcome to our website!&nbsp; Please browse around to learn more about our stores.</p></font></p>
+                  
+                  </td>
+              </tr>
+          </table>
+      </div>
+      </td>
+  </tr>
+  <tr>
+      <td background="images/piece-015.jpg">
+      <img border="0" src="images/piece-016.jpg" width="309" height="32"></td>
+  </tr>
+</table>
+<p>&nbsp;</td>
+<td valign="top">
+<img border="0" src="images/piece-014.jpg" width="48" height="400"></td>
+</tr>
+</table>
+</div>
+<div align="center">
+<table border="0" width="1" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<img border="0" src="images/piece-017.jpg" width="981" height="103"></td>
+</tr>
+</table>
+</div>
+
+
+
+
+
+
+
+*/}
+                    </div>
+                  </td>
+                </tr>
+                </tbody></table>
+              <table border={0} width="100%" cellSpacing={0} cellPadding={0}>
+                <tbody><tr>
+                  <td>
+                    <img border={0} src={footerImage} width={1146} height={25} /></td>
+                </tr>
+                </tbody></table>
+            </td>
+          </tr>
+          </tbody></table>
+      </div>
+      <p style={{ textAlign: 'center' }}>©2018&nbsp; Promenade Sacramento.&nbsp; All Rights Reserved.</p>
+    </div>
+  )
+}
+
+export default Layout

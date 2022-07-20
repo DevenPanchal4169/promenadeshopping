@@ -29,12 +29,12 @@ body {
   
   #calendar_wrap { margin-left: 10px; margin-bottom: 6px; overflow: hidden; text-align: left; }
   #calendar_wrap .title_bar { font-weight: bold; color: #1C1C1C; text-align: center;  border:1px solid #fff; margin-bottom:15px; margin-top:10px; }
-  #calendar_wrap .title_bar .previous { float: left; display: block; width: 25px; height: 20px; background: url(http://promenadeshopping.com/images/previous_month.gif) left top no-repeat; margin-top:10px; margin-left:10px;  }
-  #calendar_wrap .title_bar .next { float: right; display: block; width: 25px; height: 20px; background: url(http://promenadeshopping.com/images/next_month.gif) right top no-repeat; margin-top:10px; margin-right:10px;  }
+  #calendar_wrap .title_bar .previous { float: left; display: block; width: 25px; height: 20px; background: url('../src/images/previous_month.gif') left top no-repeat; margin-top:10px; margin-left:10px;  }
+  #calendar_wrap .title_bar .next { float: right; display: block; width: 25px; height: 20px; background: url('../src//images/next_month.gif') right top no-repeat; margin-top:10px; margin-right:10px;  }
   #calendar_wrap .title_bar .month {  width: 800px; margin:10px auto; padding-bottom:0 !important; padding-bottom:10px; }
   #calendar_wrap .title_bar h2 { font-size: 16px;     }
   
-  .cal_day { position: relative; float: left; margin: 0 4px 17px 0px !important; width: 110px; height: 76px; background: url(http://promenadeshopping.com/images/day.png) top no-repeat; }
+  .cal_day { position: relative; float: left; margin: 0 4px 17px 0px !important; width: 110px; height: 76px; background: url(../images/day.png) top no-repeat; }
   .cal_day .day_heading { position: relative; float: left; width: 40px; height: 16px; padding: 3px 6px 6px 9px; text-transform: uppercase; font: 14px Arial; color: #FFF; }
   .cal_day .day_count { position: relative; float: right; width: 64px; text-align: right; height: 16px; padding: 6px; font: 11px Arial, sans-serif; color: #FFF; }
   .cal_day .day_number { 
@@ -55,7 +55,7 @@ body {
     -khtml-opacity: 0.2;
     opacity: 0.2;
   }
-  .current_day { position: relative; float: left; margin: 0 4px 17px 0px !important; width: 110px; height: 76px; background: url(http://promenadeshopping.com/images/day_current.png) top no-repeat; }
+  .current_day { position: relative; float: left; margin: 0 4px 17px 0px !important; width: 110px; height: 76px; background: url(../images/day_current.png) top no-repeat; }
   .current_day .day_heading { position: relative; float: left; width: 40px; height: 16px; padding: 3px 6px 6px 9px; text-transform: uppercase; font: 14px Arial; color: #FFF; }
   .current_day .day_count { position: relative; float: right; width: 64px; text-align: right; height: 16px; padding: 6px; font: 11px Arial, sans-serif; color: #FFF; }
   .current_day .day_number {
@@ -75,7 +75,6 @@ body {
       text-decoration: none;
       /*color: #333333;*/
   }
-
   
 .flexdropdownmenu, .flexdropdownmenu ul{ /*topmost and sub ULs, respectively*/
   font: normal 14px Arial;
